@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+    height: 1400px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+.green{
+    width: 700px;
+    height: 350px;
+    background: green;
+    position: relative;
+}
+.red{
+    width: 180px;
+    height: 180px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 22%;
+    left: 35%;
+}
+.fb{
+    position: fixed;
+    top: 42%;
+    right: -160px;
+    transition: 1s;
+}
+.fb:hover{
+    right: 0px;
+    cursor: pointer;
+}
+.yt{
+    position: fixed;
+    top: 50%;
+    right: -150px;
+    transition: 1s;
+}
+.yt:hover{
+    right: 0px;
+    cursor: pointer;
+}
+.tiktok{
+    position: fixed;
+    top: 62%;
+    right: -150px;
+    transition: 1s;
+}
+.tiktok:hover{
+    right: 0px;
+    cursor: pointer;
+}
